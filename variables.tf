@@ -20,12 +20,12 @@ variable "working_directory" {
   description = "Set the default working directory"
 }
 
-# variable "vcs_repo_identifier" {
-#     type        = string
-#   description = "Set the default VCS repo"
-# }
+variable "vcs_repo_identifier" {
+    type        = string
+  description = "Set the default VCS repo"
+}
 
-# variable "github_oauth_app_token" {
-#   type = string
-#   description = "Github oAuth app token"
-# }
+variable "github_oauth_app_token" {
+  type = string
+  description = "Github oAuth app token"
+}
