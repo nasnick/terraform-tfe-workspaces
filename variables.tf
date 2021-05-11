@@ -24,3 +24,13 @@ variable "vcs_repo" {
     type        = string
   description = "Set the default VCS repo"
 }
+
+variable "TFE_ORGAISATION" {
+  type = string
+  description = "Terraform Enterprise organisation"
+}
+
+variable "GITHUB_OAUTH_APP_TOKEN" {
+  type = string
+  description = "Github oAuth app token"
+}
