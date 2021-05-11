@@ -25,7 +25,7 @@ variable "vcs_repo_identifier" {
   description = "Set the default VCS repo"
 }
 
-variable "GITHUB_OAUTH_APP_TOKEN" {
+variable "github_oauth_app_token" {
   type = string
   description = "Github oAuth app token"
 }
