@@ -20,7 +20,7 @@ variable "working_directory" {
   description = "Set the default working directory"
 }
 
-variable "vcs_repo" {
+variable "vcs_repo_identifier" {
     type        = string
   description = "Set the default VCS repo"
 }
