@@ -29,3 +29,7 @@ variable "github_oauth_app_token" {
   type = string
   description = "Github oAuth app token"
 }
+
+variable "remote_state_consumer_ids" {
+  type = list
+}

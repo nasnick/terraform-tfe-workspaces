@@ -4,6 +4,7 @@ resource "tfe_workspace" "main" {
   auto_apply        = var.auto_apply
   terraform_version = var.terraform_version
   working_directory = var.working_directory
+  remote_state_consumer_ids = var.remote_state_consumer_ids
   
   vcs_repo {
     identifier     = var.vcs_repo_identifier
