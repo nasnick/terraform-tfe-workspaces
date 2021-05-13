@@ -31,5 +31,5 @@ variable "github_oauth_app_token" {
 }
 
 variable "remote_state_consumer_ids" {
-  type = list
+  type = list(any)
 }
